@@ -1,0 +1,142 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+}
+
+.center-align{
+	margin: 0 auto;
+	width: 1100px;
+}
+.section-columns{}
+.section-columns > div{
+	display: inline-block;
+	vertical-align: top;
+	width: 43%;
+}
+.section-columns h2{
+	font-size: 75px;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+#principal{
+	background-color: white;
+	color: black;
+	padding: 50px;
+}
+#principal menu{
+	margin: 0;
+	padding:0;
+}
+#principal menu div{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#principal menu #logo{
+	width: 9%;
+}
+
+#principal menu #menu-lista{
+	width: 89%;
+	text-align: right;
+
+}
+#principal menu #menu-lista ul{
+	margin: 0;
+	padding: 0;
+}
+#principal menu #menu-lista ul li{
+	list-style: none;
+	padding: 0;
+	margin: 0 8px;
+	display: inline-block;
+}
+#principal menu #menu-lista ul li a{
+	color: black;
+	text-decoration: none;
+}
+#principal menu #menu-lista ul li a:hover{
+	color: black;
+	text-decoration: underline;
+}
+#secundaria{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height: 600px
+}
+.white{
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.rectagle{
+	height: 100px;
+
+
+}
+
+.bg-black{
+	background-color: black;
+}
+
+.skew-left{
+	transform: skewY(-4deg);
+}
+#bio{
+	color: white;
+	margin: 10px;
+	margin-left: 70px;
+	padding-left: 30px;
+	display: inline-block;
+
+}
+
+.section-columns h3{
+	font-size: 26px;
+	font-weight: lighter;
+	line-height: 30px;
+
+}
+.section-columns p{
+	font-weight: lighter;
+	font-stretch: 16px;
+	line-height: 20px;
+	padding-bottom: 10px;
+}
+.section-columns p a{
+	text-decoration: none;
+}
+.section-columns p a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+.btn{
+	padding: 15px 40px;
+	border: solid 1px;
+	text-decoration: none;
+}
+.btn-white{
+	border-color: black;
+	color: black;
+
+}
+.btn-white:hover{
+	background-color: black;
+	border-color: white;
+	color: white;
+}
+.btn-black{
+	border-color: white;
+	color: white;
+
+}
+.btn-black:hover{
+	background-color: white;
+	border-color: black;
+	color: black;
+}
